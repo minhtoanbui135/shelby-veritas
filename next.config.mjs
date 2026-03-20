@@ -5,7 +5,6 @@ const withPWA = withPWAInit({
 });
 
 export default withPWA({
-  distDir: "./dist",
   basePath: process.env.NEXT_PUBLIC_BASE_PATH,
   webpack: (config) => {
     // Polyfill Node.js modules not available in browser
