@@ -1,0 +1,13 @@
+[package]
+name = "Veritas"
+version = "1.0.0"
+authors = []
+
+[addresses]
+veritas = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-token-objects" }
+
+[dev-dependencies]
